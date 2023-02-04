@@ -1,0 +1,61 @@
+baseURL = 'https://e3chz.github.io/'
+languageCode = 'en-us'
+title = 'e3chz'
+
+theme = 'coder'
+paginate = 10
+enableEmoji = true
+hasCJKLanguage = true
+
+[params]
+author = 'e3chz'
+description = "e3chz's personal website"
+info = []
+avatarURL = 'images/avatar.png'
+keywords = 'blog,developer,personal'
+
+colorScheme = 'dark'
+hideColorSchemeToggle = true
+maxSeeAlsoItems = 3
+
+customSCSS = ['scss/main.scss']
+favicon_16 = 'icons/favicon-16x16.png'
+favicon_32 = 'icons/favicon-32x32.png'
+touchIcon = 'icons/apple-touch-icon.png'
+
+[[params.social]]
+name = 'Github'
+icon = 'fa fa-github fa-2x'
+weight = 10
+url = 'https://github.com/e3chz/'
+
+[[params.social]]
+name = 'RSS Feed'
+icon = 'fa fa-rss fa-2x'
+weight = 20
+url = 'index.xml'
+
+[[menu.main]]
+name = 'Posts'
+weight = 10
+url = 'posts/'
+
+[[menu.main]]
+name = 'Categories'
+weight = 20
+url = 'categories/'
+
+[[menu.main]]
+name = 'Tags'
+weight = 30
+url = 'tags/'
+
+[taxonomies]
+# author = 'authors'
+category = 'categories'
+series = 'series'
+tag = 'tags'
+
+[markup]
+[markup.highlight]
+style = 'swapoff'
